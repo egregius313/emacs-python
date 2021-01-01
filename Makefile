@@ -1,4 +1,4 @@
-CFLAGS = -Wall -O0 -ggdb3 -std=c99
+CFLAGS = -Wall -ggdb3 -std=c99
 
 PY_CFLAGS := $$(python-config --cflags)
 PY_LDFLAGS := $$(python-config --ldflags)
